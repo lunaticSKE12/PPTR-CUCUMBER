@@ -1,4 +1,4 @@
-const { Givecn, When, Then, Before, After } = require('cucumber')
+const { Given, When, Then, Before, After } = require('cucumber')
 
 Before(async function () {
   return await this.launchBrowser();
